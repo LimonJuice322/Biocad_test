@@ -1,0 +1,50 @@
+.device {
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: 35.5%  61.1%;
+  gap: 30px;
+  padding-bottom: 37px;
+}
+
+.device__name {
+  display: flex;
+  padding-bottom: 30px;
+
+  img {
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+  }
+
+  h1 {
+    padding-right: 35px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+  }
+}
+
+.device__column {
+  position: relative;
+}
+
+.device__info {
+  list-style: none;
+  padding: 20px 18px;
+  border-radius: 5px;
+  background-color: $basic-grey;
+
+  li {
+    padding: 3px;
+  }
+}
+
+.device__label {
+  color: $basic-grey-dark;
+}
+
+.device__link {
+  color: $basic-blue;
+}
